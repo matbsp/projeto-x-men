@@ -1,0 +1,107 @@
+header {
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    overflow: hidden;
+}
+
+.logo {
+    transform: translate(25px, 00px)
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #47f4ff;
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 30px;
+}
+
+.selecao-personagem {
+    display: flex;
+    height: 525px;
+    width: 888px;
+
+}
+
+.titulo-selecione {
+    width: 585px;
+    height: 20px;
+    border-bottom: 3px solid #47f4ff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    transform: translate(235px, 50px);
+
+}
+
+.lista-personagens {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    height: 405px;
+    width: 585px;
+    flex-direction: column;
+    padding-top: 100px;
+    transform: translate(-300px, 00px);
+}
+
+
+.descricao {
+    height: 557px;
+    align-items: flex-end;
+}
+
+
+.personagem-selecionado {
+    justify-content: flex-end;
+    padding-left: 400px;
+    transform: translate(-210px, 20px);
+
+}
+
+.cartao {
+    margin-left: 30px;
+    border-bottom: 2px solid #47f4ff;
+}
+
+#jean {
+    order: 1;
+}
+
+#ciclope {
+    order: 3;
+}
+
+#wolverine {
+    order: 2;
+}
+
+#noturno {
+    order: 4;
+}
+
+#lince {
+    order: 5;
+}
+
+#magneto {
+    order: 6;
+}
+
+#tempestade {
+    order: 7;
+}
+
+#vampira {
+    order: 8;
+}

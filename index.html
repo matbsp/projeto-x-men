@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men</title>
+
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="https://universoxmen.com.br/2024/05/conheca-as-historias-em-quadrinhos-do-desenho-x-men-evolution/"
+            target="black">
+            <img src="src/img/LOGO_Prancheta-1-copia-7 1.png" alt="X-Men" class="logo"></a>
+    </header>
+
+    <main class="selecao-personagem">
+        <section class="titulo-selecione"><img src="./src/img/selecione um personagem.png" alt="" height="24px"
+                width="431px"></a></section>
+
+        <ul class="lista-personagens">
+            <li data-name="Jean Grey" id="jean" class="cartao" data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e telecinese">
+                <img src="./src/img/card2.png">
+            </li>
+
+            <li data-name="Ciclope" id="ciclope" class="cartao" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
+                <img src="./src/img/card1.png">
+            </li>
+
+            <li data-name="Lince Negra" id="lince" class="cartao" data-description="Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar">
+                <img src="./src/img/card3.png">
+            </li>
+
+            <li data-name="Tempestade" id="tempestade" class="cartao" data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos">
+                <img src="./src/img/card4.png">
+            </li>
+
+            <li data-name="Wolverine" id="wolverine" class="cartao" data-description="Poderes. Garras Metálicas. Fator de Cura Regenerativo, Super Agilidade.">
+                <img src="./src/img/card5.png">
+            </li>
+
+            <li data-name="Noturno" id="noturno" class="cartao" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se Teletransportar">
+                <img src="./src/img/card8.png">
+            </li>
+
+            <li data-name="Magneto" id="magneto" class="cartao" data-description="Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos">
+                <img src="./src/img/card6.png">
+            </li>
+
+            <li data-name="Vampira" id="vampira" class="cartao" data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente">
+                <img src="./src/img/card7.png">
+            </li>
+        </ul>
+
+        <div class="personagem-selecionado">
+             <img
+             class="personagem-grande"
+                src="./src/img/ciclope-raio 1.png">
+            <div class="descricao">
+                <h2 id="nome-personagem">CICLOPE</h2>
+                <p id="descricao-texto" class="descricao-texto">Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com
+                    ele quando criança, mas
+                    não consegue controlá-los.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
